@@ -1,0 +1,62 @@
+platformPoolCount,2
+definePlatformPool,Box1,10
+definePlatformPool,Spinner,10
+
+# introPlatform,<pool id>,<x-position>,<y-position>,<z-position>,<x-rotation>,<y-rotation>,<z-rotation>,<time till next spawn>
+introPlatform,0,0,-0.5,4.7,0,0,0,0
+introPlatform,0,0,-0.5,17,0,0,0,0
+introPlatform,0,-2,-0.5,29,0,0,0,0
+introPlatform,0,-2,-0.5,41,0,0,0,0
+introPlatform,0,2,-0.5,53,0,0,0,1.8
+
+# platform,<pool id>,<x-position>,<y-position>,<x-rotation>,<y-rotation>,<z-rotation>,<time till next spawn>
+platform,0,2,-0.5,0,0,0,0.99
+platform,0,0,-0.5,0,0,0,0.99
+platform,0,-2,-0.5,0,0,0,0.99
+platform,0,2,-0.5,0,0,0,0.99
+platform,0,-3,-0.5,0,0,0,0.99
+platform,0,3,-0.5,0,0,0,0.99
+
+platform,0,0,-0.5,0,0,0,0.99
+platform,0,0,-0.5,0,0,0,0.99
+platform,0,-1.5,-0.5,0,0,0,0.99
+platform,0,0,-0.5,0,0,0,0.99
+platform,0,1.5,-0.5,0,0,0,0.99
+platform,0,0,-0.5,0,0,0,0.99
+
+# spinners
+platform,1,-3,-0.5,0,0,0,0.99
+platform,1,-1.5,-0.5,0,0,0,0.99
+platform,1,0,-0.5,0,0,0,0.99
+
+platform,1,3,-0.5,0,0,0,0.99
+platform,1,1.5,-0.5,0,0,0,0.99
+platform,1,0,-0.5,0,0,0,0.99
+
+platform,1,1.5,-0.5,0,0,0,0
+platform,1,-1.5,-0.5,0,0,0,0.99
+platform,1,3,-0.5,0,0,0,0
+platform,1,-3,-0.5,0,0,0,0.99
+
+# box1
+platform,0,3,-0.5,0,0,0,0.99
+platform,0,3,-0.5,0,0,0,0.99
+platform,0,-3,-0.5,0,0,0,0.99
+platform,0,-3,-0.5,0,0,0,0.99
+
+platform,0,2,-0.5,0,0,0,0.99
+platform,0,2,-0.5,0,0,0,0.99
+platform,0,-2,-0.5,0,0,0,0.99
+platform,0,-2,-0.5,0,0,0,0.99
+platform,0,1,-0.5,0,0,0,0
+platform,0,-1,-0.5,0,0,0,0.99
+platform,0,1,-0.5,0,0,0,0
+platform,0,-1,-0.5,0,0,0,0.99
+
+platform,0,0,-0.5,0,0,0,0.99
+
+# box1 walls
+platform,0,1,-0.5,0,0,0,0
+platform,0,-1,-0.5,0,0,0,0
+platform,0,3,-0.5,0,0,0,0
+platform,0,-3,-0.5,0,0,0,0.99
